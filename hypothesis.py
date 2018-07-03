@@ -48,3 +48,5 @@ def diff_of_means(data_1, data_2):
 # Draw 10,000 permutation replicates: perm_replicates
 # perm_replicates = draw_perm_reps(force_a, force_b,
 #                                  diff_of_means, size=10000)
+# pvalue
+# p = np.sum(perm_replicates >= empirical_diff_means)/len(perm_replicates)

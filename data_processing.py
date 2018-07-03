@@ -67,7 +67,4 @@ def cdf(data):
 def bin_size(data):
     return int(np.sqrt(len(data)))
 
-# Hacker Statistics
-# how to simulate data
-# Simulate it many times
 
